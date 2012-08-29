@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+    div#main-content { width: 800px !important; }
+    div#notice-container { position: absolute; top:10px; left: 10px; font-size: 11px; padding: 3px;}
+    h3 { font-size: 21px; font-weight: normal; color: #69a6e3; }
+
+    #ifyou { margin-left: 75px; width: 750px; }
+    #ifyou ul { margin: 0; padding: 0; margin: 5px 0 2.5em 0;}
+    #ifyou ul li { list-style: none; background: url(img/icons/bullet_blue.gif) no-repeat; float: left; padding: 0 0 0 18px; margin: 5px 0px 5px 5px; width: 350px; font-size: 14px;}
+    h4 { font-size: 16px; }
+
+    div#content { position: static; }
+    #tabs-container { display:none; }
+    div#full-content { padding-top: 0; }
+    #commoncraft { display: -moz-inline-stack; display:inline-block; height: 323px; margin-top: 2em; }
+    #playvideo { display:block; color: #222; font-size: 24px; }
+    #playvideo img { margin-bottom: 1em; }
+    #playvideo:hover { text-decoration: none; }
+
+    #no_flash div#landing-page { background: url(img/background_home.gif) top center no-repeat; width: 500px; min-height: 448px; _height: 448px; margin: 60px auto 0 auto; text-align:center; position: relative; }
+    #no_flash div#landing-page div#logo-container { padding-top: 125px; }
+
+    #crunchy { text-align: center; font-size: 13px; margin-top: 3em;}
+    #crunchy strong { color: #d06200; }
+    #full-content { position: relative; }
+    #logo { margin: 0 auto; width: auto; }
+
+    #has_flash, #no_flash { padding-top: 30px; }
+    #login-hover-cover, #login-hover-cont { top: 33px; }
+    .opera .db_button { margin: 0 auto; }

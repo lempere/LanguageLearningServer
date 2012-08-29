@@ -1,0 +1,22 @@
+package pfc;
+
+//Global configuration
+public class Global {
+
+		//Mysql configuration date
+        public static String user = "pfc";
+        public static String password = "pracfinal";
+        public static String databaseName = "pfc";
+
+        public static final String path = "/var/www/html/tomcat/records/";
+        public static final String path_processFiles = "/var/www/html/tomcat/records/wav/";
+        //public static final String path = "records/";
+        public static final String path_audio = "/media/Programas_Dev/Servers/Audio_Class/";
+        
+        public static String folder_path = path;
+        //Folder to save photos in absolute path
+        public static String photoPath = "/home/cripto/Programas/WS_ee/TS1_practFinal/WebContent/photos/";
+
+        //Main index page
+        public static String indexPage = "./index.jsp";
+}

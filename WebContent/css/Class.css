@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+.phrase{	
+	text-align: left;
+	margin-left: 10em;
+	margin-right: 4em;
+	margin-bottom: 3em;
+	background-color: ghostWhite;
+	max-width: 701px;
+}
+.phrase:HOVER{
+	background-color: yellow;
+}
+.phraseHOVER{
+	background-color: yellow;
+}
+#phrases-text{
+	margin-left: 5em;
+	padding: 1em;
+}

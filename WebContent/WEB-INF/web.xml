@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>LanguageLearningServer</display-name>
+	<welcome-file-list>
+			<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>pfc.web.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <description></description>
+    <display-name>getAudio</display-name>
+    <servlet-name>GetAudioServlet</servlet-name>
+    <servlet-class>pfc.audio.GetAudioServlet</servlet-class>
+  </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>Courses</display-name>
+    	<servlet-name>Courses</servlet-name>
+    	<servlet-class>pfc.web.Courses</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>Matricula</display-name>
+    	<servlet-name>Matricula</servlet-name>
+    	<servlet-class>pfc.web.Matricula</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>ListCoursesServlet</display-name>
+    	<servlet-name>ListCoursesServlet</servlet-name>
+    	<servlet-class>pfc.web.ListCoursesServlet</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>AgendaServlet</display-name>
+    	<servlet-name>AgendaServlet</servlet-name>
+    	<servlet-class>pfc.web.AgendaServlet</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>ClassServlet</display-name>
+    	<servlet-name>ClassServlet</servlet-name>
+    	<servlet-class>pfc.web.ClassServlet</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	Get the Json parametres from the last score audio if is any</description>
+    	<display-name>RecordExistScore</display-name>
+    	<servlet-name>RecordExistScore</servlet-name>
+    	<servlet-class>pfc.web.RecordExistScore</servlet-class>
+    </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAudioServlet</servlet-name>
+    <url-pattern>/getAudio</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Courses</servlet-name>
+  	<url-pattern>/Courses</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Matricula</servlet-name>
+  	<url-pattern>/Matricula</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListCoursesServlet</servlet-name>
+  	<url-pattern>/ListCourses</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AgendaServlet</servlet-name>
+  	<url-pattern>/AgendaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ClassServlet</servlet-name>
+  	<url-pattern>/Class</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RecordExistScore</servlet-name>
+  	<url-pattern>/RecordExistScore</url-pattern>
+  </servlet-mapping>
+  
+<context-param>
+    <description>Location to store uploaded file</description> 
+    <param-name>records</param-name> 
+    <param-value>
+         /home/lempere/
+     </param-value> 
+</context-param>
+
+</web-app>

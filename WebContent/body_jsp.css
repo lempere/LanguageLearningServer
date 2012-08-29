@@ -1,0 +1,28 @@
+body {
+ font-family: Arial, Helvetica;
+ font-size: 13px;
+ background-color: #00c0Fa;
+}
+.indentAlign{
+	text-indent: 87px;
+}
+#cos{
+	 color: #333;
+	 background-color: #00c0Fa;
+	padding: 20px 20px;
+}
+.enlinea{
+	 display: inline-block;
+}
+#blocAvatar{
+	display: inline-block;
+	text-align: center;
+}
+.indentAnswer{
+	text-indent: 25px;
+}
+
+#wami-container{
+
+	z-index: 1;
+}
